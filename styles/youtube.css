@@ -1,0 +1,61 @@
+
+  .amy,
+  .snd {
+    width: 100%;
+    border-radius: 20px;
+  } 
+  .channel-pic {
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+  }
+ 
+  .vid-title {
+    margin: 0px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 15px;
+  }
+  .image {
+    margin-bottom: 12px;
+    position: relative;  
+  }
+  .video-time{ 
+    background-color: rgb(39, 39, 39);
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 7px;
+    font-family: roboto, arial;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 4px;
+   }
+   
+  .profile-pic2 {
+    width: 40px;
+    border-radius: 50px;
+  }
+  .video-author,
+  .video-stats {
+    margin-bottom: 4px;
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+  }
+  .video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+
+  .video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    margin-bottom: 50px;
+  }
+  @media (max-width:720px) {
+    .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  }
